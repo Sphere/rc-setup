@@ -1,22 +1,28 @@
 {
-    "/registry/api/v1": {
-      "target": "https://sunbird-certificate-demo.sunbirdrc.dev/",
+    "/api/v1": {
+      "target": "http://localhost:6083/",
       "changeOrigin": true,
       "logLevel": "debug",
       "secure": false
 
     },
 
-    "/registry/api": {
-      "target": "https://sunbird-certificate-demo.sunbirdrc.dev/",
+    "/api": {
+      "target": "http://localhost:6083/",
       "changeOrigin": true,
       "logLevel": "debug",
       "secure": false
 
     },
+    "/auth": {
+      "target": "http://localhost:6082/",
+      "changeOrigin": true,
+      "logLevel": "debug",
+      "secure": false
 
-    "/registry/api/docs": {
-      "target": "https://sunbird-certificate-demo.sunbirdrc.dev/",
+    },
+    "/api/docs": {
+      "target": "http://localhost:6083/",
       "changeOrigin": true,
       "logLevel": "debug",
       "secure": false
@@ -28,13 +34,13 @@
       "secure": false
     },
     "/metrics": {
-      "target": "https://sunbird-certificate-demo.sunbirdrc.dev",
+      "target": "http://localhost:6083/",
       "changeOrigin": true,
       "logLevel": "debug",
       "secure": false
     },
     "/bulk/v1": {
-      "target": "https://sunbird-certificate-demo.sunbirdrc.dev",
+      "target": "http://localhost:6083/",
       "changeOrigin": true,
       "logLevel": "debug",
       "secure": false

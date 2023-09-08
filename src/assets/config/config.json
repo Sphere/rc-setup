@@ -2,13 +2,13 @@
     "environment": "development",
     "appType": "issuer",
     "keycloak": {
-         "url": "https://sunbird-certificate-demo.sunbirdrc.dev/auth",
+         "url": "http://localhost:4200/auth",
         "realm": "sunbird-rc",
         "clientId": "registry-frontend"
     },
-    "baseUrl": "https://sunbird-certificate-demo.sunbirdrc.dev/registry/api/v1",
-    "domainName": "https://sunbird-certificate-demo.sunbirdrc.dev",
-    "schemaUrl": "https://sunbird-certificate-demo.sunbirdrc.dev/registry/api/docs/swagger.json",
+    "baseUrl": "http://localhost:4200/api/v1",
+    "domainName": "http://localhost:4200",
+    "schemaUrl": "http://localhost:4200/api/docs/swagger.json",
     "title": "Issuance Portal",
     "footerText": "Issuance Portal",
     "languages": [
