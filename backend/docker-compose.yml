@@ -39,7 +39,7 @@ services:
       - connectionInfo_password=registry
       - elastic_search_connection_url=10.0.136.159:9200
       - search_provider=dev.sunbirdrc.registry.service.ElasticSearchService
-      - sunbird_sso_publickey=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAtby6TRj0LmU4uSsp+YI1IjUrUhILE3uQBHhQzbgWVunov3SfACwIPDN/OVA2qi7F3GWifmkXNpsah56UPlqLJLDjgdcQJYVBBs1LzgaEGx8uToHysnIm9t/RUbohCMUnkMgK9dyK3grW9clm41zOwJBeap7D2gQOgMVAeR8nEtgBprjD1WzVjB9KghIrGQHh57PRxaYx6EqpwGgHd4mg8FjsUoYWHgeMeX7jZrxbyXB2Vt0DVaehTCnsu7Ni1Ikl8MneDr6XwbQyb7hNaCHsnND43CqxqPn0L9ZmTMvS7GLCo4Ebh4VHnCPcbAcv3+NX5R/QD8SMWhnKcGBpVWzLmQIDAQAB
+      - sunbird_sso_publickey=
       - sunbird_sso_realm=sunbird-rc
       - sunbird_sso_url=http://keycloak:8080/auth
       - sunbird_sso_admin_client_id=admin-api
